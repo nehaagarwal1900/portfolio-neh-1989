@@ -585,6 +585,7 @@ form input {
     border: 2px solid grey
 }
 
+/* footer start here  */
 .footer {
     background-color: #210F37;
     color: white;
@@ -606,3 +607,5 @@ form input {
     margin-top: 2rem;
     margin: 2rem;
 }
+
+/* footer end here */
