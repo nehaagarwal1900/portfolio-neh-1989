@@ -12,3 +12,10 @@ document.addEventListener("DOMContentLoaded", function () {
         bar.style.width = bar.style.width;
     });
 });
+
+document.getElementById('scrollToTop').addEventListener('click', function () {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});

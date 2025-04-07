@@ -99,6 +99,7 @@ nav .btn:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -185,6 +186,7 @@ nav .btn:hover {
     color: #DCA06D;
 }
 
+
 /* about start here */
 #about {
     width: 100%;
@@ -192,6 +194,7 @@ nav .btn:hover {
     position: relative;
     margin-top: 6rem;
     animation: fadeIn 1.5s ease-in-out forwards;
+
 }
 
 @keyframes fadeIn {
@@ -229,8 +232,6 @@ nav .btn:hover {
     display: flex;
     gap: 50;
 }
-
-
 
 .about-img img {
     width: 30rem;
@@ -282,6 +283,8 @@ nav .btn:hover {
     background-color: #210F37;
     color: white;
 }
+
+
 
 /* about end here */
 
@@ -609,3 +612,20 @@ form input {
 }
 
 /* footer end here */
+/* go to top button */
+
+#scrollToTop {
+    position: fixed;
+    /* optional: if you want it floating */
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    font-size: 2rem;
+    background: white;
+    color: #210F37;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+/* end top button */
